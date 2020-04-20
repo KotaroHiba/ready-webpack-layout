@@ -1,0 +1,46 @@
+{
+  "name": "ready-webpack-layout",
+  "version": "1.0.1",
+  "description": "Ready assembly webpack with all installed and configured plugins for layout",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack-configuration/webpack.build.config.js",
+    "dev": "webpack-dev-server --config webpack-configuration/webpack.dev.config.js"
+  },
+  "author": "Kotaro Hiba",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@types/jquery": "^3.3.35",
+    "@types/mocha": "^7.0.2",
+    "autoprefixer": "^9.7.6",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.2",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^5.1.0",
+    "fs": "0.0.1-security",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "pug": "^2.0.4",
+    "pug-loader": "^2.4.0",
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "sass-resources-loader": "^2.0.3",
+    "ts-loader": "^6.2.2",
+    "ts-node": "^8.8.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "jquery": "^3.5.0",
+    "owl.carousel": "^2.3.4"
+  }
+}
