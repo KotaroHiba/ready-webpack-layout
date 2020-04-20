@@ -80,7 +80,7 @@ let config  = {
                         options: {
                             resources: [
                                 `${PATHS.src}/service/function.scss`,
-                                //`${PATHS.src}/service/global.scss`,
+                                `${PATHS.src}/service/global.scss`,
                                 `${PATHS.src}/service/mixins.scss`,
                                 `${PATHS.src}/service/variables.scss`,
                             ],
